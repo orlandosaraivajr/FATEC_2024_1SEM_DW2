@@ -1,14 +1,8 @@
 <?php
 
-session_start();
-
-if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
-    header("location: index.php");
-    exit;
-}
+include 'header.php';
 
 ?>
- 
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
@@ -26,10 +20,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </b>.Benvindo ao site.</h1>
     </div>
     <p>
-        <!-- --> 
         <a href="cadastro.php" class="btn btn-primary">Cadastro Pessoas</a>
         <br><br>
-        
         <a href="logout.php" class="btn btn-danger">Sair da conta</a>
     </p>
 </body>

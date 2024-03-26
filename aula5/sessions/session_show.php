@@ -8,7 +8,7 @@
       Mostrar a superglobal Session
       <br/>
       <?php
-         # session_start();
+         session_start();
          print_r($_SESSION);
       ?>
    </body>
