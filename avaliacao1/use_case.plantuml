@@ -1,0 +1,19 @@
+@startuml
+
+left to right direction
+actor "Portaria" as portaria
+actor "Usuário não logado" as anonimo
+
+package Cadastro {
+  usecase "Registrar Moto" as UC1
+  usecase "Registrar Carro" as UC2
+  usecase "Verificar Registros Carro" as UC3
+  usecase "Verificar Registros Moto" as UC4
+  
+}
+portaria --> UC1
+portaria --> UC2
+portaria --> UC3
+portaria --> UC4
+
+@enduml
