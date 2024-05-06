@@ -6,8 +6,7 @@
 
 1. Crie um repositório no seu github com o nome "<b>FATEC_DES_WEB2_2024_Avaliacao1</b>"
 
-
-2. Publicar no Teams o arquivo zipado (.zip) do seu diretório avaliacao2. Este anexo será avaliado pelo professor Orlando.<del> Publicar no Teams o repositório que será avaliado pelo professor Orlando.</del> Publicar sua prova no seu github como portifólio.
+2. Publicar no Teams o repositório que será avaliado pelo professor Orlando.
 
 ##  Desafio Técnico
 
