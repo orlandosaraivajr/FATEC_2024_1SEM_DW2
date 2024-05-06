@@ -1,0 +1,19 @@
+@startuml
+
+left to right direction
+actor "Vestibular" as user
+actor "Usuário não logado" as anonimo
+
+package Vestibular {
+  usecase "Cadastrar Candidato" as UC1
+  usecase "Listar Candidatos" as UC2
+  usecase "Login" as UC3
+  usecase "Logout" as UC4
+  
+}
+user --> UC1
+user --> UC2
+user --> UC3
+user --> UC4
+
+@enduml
